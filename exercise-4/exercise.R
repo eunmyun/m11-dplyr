@@ -7,7 +7,9 @@ library(dplyr)
 
 # The data.frame flights should now be accessible to you.  View it, 
 # and get some basic information about the number of rows/columns
-
+View(flights)
+nrow(flights)
+ncol(flights)
 
 # Add a column that is the amount of time gained in the air (`arr_delay` - `dep_delay`)
 
